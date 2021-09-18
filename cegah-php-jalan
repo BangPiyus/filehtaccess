@@ -1,0 +1,7 @@
+cegah eksekusi file php dalam folder image
+
+
+<FilesMatch ".*\.(php|js|html|phtml|fLA|txt)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
